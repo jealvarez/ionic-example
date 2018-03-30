@@ -45,9 +45,9 @@ ionic cordova platform add ios
 
 * Run iOS emulator under Xcode
 
-<img src="./docs/ios/01.jpg" width="500" height="500">
+<img src="./docs/ios/01.jpg" width="100%" height="500">
 
-<img src="./docs/ios/02.jpg" width="300" height=500">
+<img src="./docs/ios/02.jpg" width="300" height="500">
 
 <img src="./docs/ios/03.jpg" width="300" height="500">
 
@@ -65,7 +65,7 @@ ionic cordova platform add android
 
 * Run android emulator under Android Studio IDE
 
-<img src="./docs/android/01.jpg" width="500" height="500">
+<img src="./docs/android/01.jpg" width="100%" height="500">
 
 <img src="./docs/android/02.jpg" width="300" height="500">
 
