@@ -38,3 +38,4 @@ platforms/
 resources/
 
 config.xml
+package-lock.json
