@@ -45,7 +45,6 @@ export class AuthorityGroupFormComponent implements OnInit {
   }
 
   private renderForm(): void {
-    console.log(this.authorityGroup);
     if (this.authorityGroup) {
       this.initializeDefaultForm(this.authorityGroup);
     } else {
