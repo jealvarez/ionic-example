@@ -3,7 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { AuthorityGroup } from '../../models/authority-group';
 
 @IonicPage({
-  segment: '/authority-groups/create'
+  segment: '/authority-groups/form'
 })
 @Component({
   selector: 'page-authority-group-form',
