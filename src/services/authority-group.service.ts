@@ -6,7 +6,7 @@ import { AuthorityGroup } from '../models/authority-group';
 @Injectable()
 export class AuthorityGroupService {
 
-  private AUTHORITY_GROUP_RESOURCE = "http://127.0.0.1:5000/api/authority-groups";
+  private AUTHORITY_GROUP_RESOURCE = "http://192.168.99.1:5000/api/authority-groups";
 
   constructor(private httpClient: HttpClient) { }
 
