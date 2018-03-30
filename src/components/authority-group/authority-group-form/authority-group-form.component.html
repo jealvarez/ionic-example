@@ -1,0 +1,15 @@
+<form [formGroup]="authorityGroupForm" (ngSubmit)="onSubmit()">
+  <ion-item>
+    <ion-label>Name</ion-label>
+    <ion-input formControlName="name" type="text" placeholder="Name"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Description</ion-label>
+    <ion-input formControlName="description" type="text" placeholder="Description"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label>Enabled</ion-label>
+    <ion-checkbox formControlName="enabled" color="dark" checked="false"></ion-checkbox>
+  </ion-item>
+  <button ion-button block clear type="submit">Save</button>
+</form>

@@ -1,0 +1,9 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>Authority Group</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <app-authority-group-form [authorityGroup]="authorityGroup" (authorityGroupStoredEvent)="onAuthorityGroupStored()"></app-authority-group-form>
+</ion-content>
