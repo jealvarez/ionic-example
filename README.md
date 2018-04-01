@@ -33,12 +33,15 @@ ionic serve
 
 <img src="./docs/web/02.jpg" width="300" height="500">
 
+<img src="./docs/web/03.jpg" width="300" height="500">
+
 ## **iOS**
 
 * Add iOS platform
 
 ```sh
 ionic cordova platform add ios
+ionic cordova build ios
 ```
 
 * Open the file `platform/ios/MyApp.xcodeproj`. **Note. You need Xcode**
@@ -51,12 +54,15 @@ ionic cordova platform add ios
 
 <img src="./docs/ios/03.jpg" width="300" height="500">
 
+<img src="./docs/ios/04.jpg" width="300" height="500">
+
 ## **Android**
 
 * Add android platform
 
 ```sh
 ionic cordova platform add android
+ionic cordova build android
 ```
 
 * Open Android Studio IDE
@@ -70,3 +76,5 @@ ionic cordova platform add android
 <img src="./docs/android/02.jpg" width="300" height="500">
 
 <img src="./docs/android/03.jpg" width="300" height="500">
+
+<img src="./docs/android/04.jpg" width="300" height="500">
